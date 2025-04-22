@@ -1,0 +1,216 @@
+OrionLib cục bộ = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jdidkm/LM-H-NG/refs/heads/main/LM HỒNG')))()
+
+Cửa sổ cục bộ = OrionLib:MakeWindow({Tên = "LM HỒNG", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
+
+Tab cục bộ = Cửa sổ:MakeTab({
+	Tên = "Scripts Mới",
+	Biểu tượng = "rbxassetid://4483345998",
+	PremiumOnly = sai
+})
+
+Tab2 cục bộ = Cửa sổ:MakeTab({
+	Tên = "Mod Client",
+	Biểu tượng = "rbxassetid://4483345998",
+	PremiumOnly = sai
+})
+
+Tab3 cục bộ = Cửa sổ:MakeTab({
+	Tên = "Trò chơi Mod",
+	Biểu tượng = "rbxassetid://4483345998",
+	PremiumOnly = sai
+})
+Tab4 cục bộ = Cửa sổ:MakeTab({
+	Tên = "Script Cũ",
+	Biểu tượng = "rbxassetid://4483345998",
+	PremiumOnly = sai
+})
+Tab3:Thêm nút({
+	Tên = "RTX",
+	Gọi lại = hàm()
+        lặp lại chờ (5) cho đến khi trò chơi: IsLoaded()
+        chuỗi tải(trò chơi:HttpGet("https://pastebin.com/raw/vmjZ4UY8"))()
+kết thúc
+})
+
+Tab3:Thêm nút({
+	Tên = "Sửa độ trễ",
+	Gọi lại = hàm()
+        lặp lại chờ (5) cho đến khi trò chơi: IsLoaded()
+      loadstring(trò chơi:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+kết thúc
+})
+
+Tab3:Thêm nút({
+	Tên = "Chống Đá",
+	Gọi lại = hàm()
+        lặp lại chờ (5) cho đến khi trò chơi: IsLoaded()
+     chuỗi tải(trò chơi:HttpGet("https://pastebin.com/raw/FPfaukXN"))()
+kết thúc
+})
+Tab3:Thêm nút({
+	Tên = "Nông trại Nhanh",
+	Gọi lại = hàm()
+        lặp lại chờ (5) cho đến khi trò chơi: IsLoaded()
+        chuỗi tải (trò chơi:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
+kết thúc
+})
+
+
+Tab2:Thêm nút({
+	Tên = "Trình tìm trái cây",
+	Gọi lại = hàm()
+        lặp lại chờ (5) cho đến khi trò chơi: IsLoaded()
+        chuỗi tải (trò chơi:HttpGet('https://raw.githubusercontent.com/AdminusGames/Blox_Fruits_Sniper/main/.lua'))()
+  	kết thúc    
+})
+
+Tab2:Thêm nút({
+	Tên = "Arceus X",
+	Gọi lại = hàm()
+        lặp lại chờ (5) cho đến khi trò chơi: IsLoaded()
+      loadstring(trò chơi:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+kết thúc
+})
+
+Tab2:Thêm nút({
+	Tên = "Krnl",
+	Gọi lại = hàm()
+        lặp lại chờ (5) cho đến khi trò chơi: IsLoaded()
+      chuỗi tải(trò chơi:HttpGet("https://pastebin.com/raw/M3HjLPU7"))()
+kết thúc
+})
+
+Tab2:Thêm nút({
+	Tên = "Synapse X",
+	Gọi lại = hàm()
+        lặp lại chờ (5) cho đến khi trò chơi: IsLoaded()
+      chuỗi tải(trò chơi:HttpGet("https://pastebin.com/raw/QmqSgQ3K"))()
+kết thúc
+})
+
+Tab2:Thêm nút({
+	Tên = "Bàn phím",
+	Gọi lại = hàm()
+        lặp lại chờ (5) cho đến khi trò chơi: IsLoaded()
+     loadstring(trò chơi:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", đúng))()
+kết thúc
+})
+
+Tab:ThêmNút({
+	Tên = "MỚI: Thuật giả kim",
+	Gọi lại = hàm()
+       chuỗi tải(trò chơi:HttpGet("https://scripts.alchemyhub.xyz"))()
+  	kết thúc    
+})
+Tab:ThêmNút({
+	Tên = "MỚI: Chuối",
+	Gọi lại = hàm()
+     chuỗi tải(trò chơi:HttpGet("https://raw.githubusercontent.com/ScriptRUs/BananaHub/main/BananaHub.lua"))()
+  	kết thúc    
+})
+Tab:ThêmNút({
+	Tên = "MỚI: BLUE X",
+	Gọi lại = hàm()
+      chuỗi tải(trò chơi:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/EN.lua"))()
+  	kết thúc    
+})
+
+Tab:ThêmNút({
+	Tên = "Trang trại rương",
+	Gọi lại = hàm()
+        loadstring(trò chơi:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/ChestFarmOp"))()
+kết thúc    
+})
+
+
+Tab4:Thêm nút({
+	Tên = "Domadic Hub",
+	Gọi lại = hàm()
+        loadstring(trò chơi:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+  	kết thúc    
+})
+
+Tab4:Thêm nút({
+	Tên = "FTS X Hub!",
+	Gọi lại = hàm()
+        chuỗi tải(trò chơi:HttpGet('https://raw.githubusercontent.com/tufreescript/FTS-X-Hub/main/FTSXHUB%20V1'))()
+  	kết thúc    
+})
+
+Tab4:Thêm nút({
+	Tên = "T7GFY GUI",
+	Gọi lại = hàm()
+        loadstring(trò chơi:HttpGet("https://raw.githubusercontent.com/minded102/dokinbog/main/README.md", đúng))()
+  	kết thúc    
+})
+
+Tab4:Thêm nút({
+	Tên = "CFrame Hub",
+	Gọi lại = hàm()
+        loadstring(trò chơi:HttpGet("https://raw.githubusercontent.com/Steveee11/Scripts/main/Blox%20Fruits%20OP%20Script"))()
+  	kết thúc    
+})
+
+Tab4:Thêm nút({
+	Tên = "Flare Hub",
+	Gọi lại = hàm()
+        chuỗi tải(trò chơi:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/flares"))()
+  	kết thúc    
+})
+
+Tab4:Thêm nút({
+	Tên = "BLCK Hub",
+	Gọi lại = hàm()
+        chuỗi tải(trò chơi:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/BLCK"))()
+  	kết thúc    
+})
+
+Tab4:Thêm nút({
+	Tên = "Modz HUb",
+	Gọi lại = hàm()
+        chuỗi tải(trò chơi:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/modz"))()
+  	kết thúc    
+})
+
+Tab4:Thêm nút({
+	Tên = "Hoho Hub",
+	Gọi lại = hàm()
+        chuỗi tải(trò chơi:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  	kết thúc    
+})
+
+Tab4:Thêm nút({
+	Tên = "Lol Hub",
+	Gọi lại = hàm()
+        chuỗi tải(trò chơi:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/neon"))()
+  	kết thúc    
+})
+
+Tab4:Thêm nút({
+	Tên = "Zen Hub",
+	Gọi lại = hàm()
+        loadstring(trò chơi:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", đúng))()
+  	kết thúc    
+})
+
+Tab4:Thêm nút({
+	Tên = "Uranium/Switch Hub",
+	Gọi lại = hàm()
+        chuỗi tải(trò chơi:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumX/main/src_.lua.txt"))()
+  	kết thúc    
+})
+
+
+Tab4:Thêm nút({
+	Tên = "Thunder Z",
+	Gọi lại = hàm()
+        loadstring(trò chơi:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Mobile-Loader"))()
+  	kết thúc    
+})
+
+Tab4:Thêm nút({
+	Tên = "Mukuro Hub",
+	Gọi lại = hàm()
+        loaloadstring(trò chơi:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/BloxFruit.lua"))()
+  	kết thúc    
+})
